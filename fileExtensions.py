@@ -1,4 +1,6 @@
-fileIcons: dict[str, str] = {
+from typing import Dict, List
+
+fileIcons: Dict[str, str] = {
     '.txt': '',
     '.py': '',
     '.md': '',
@@ -28,7 +30,7 @@ fileIcons: dict[str, str] = {
     '.html': ''
 }
 
-fileColors: dict[str, str] = {
+fileColors: Dict[str, str] = {
     '.txt': '',
     '.py': '',
     '.db': '',
@@ -58,7 +60,7 @@ fileColors: dict[str, str] = {
     '.html': ''
 }
 
-dirIgnore = [
+dirIgnore: List[str] = [
     '.git',
     '__pycache__'
 ]
