@@ -56,7 +56,7 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '-d', '--depth', type=int,
-        help='The depth of the tree', default=3
+        help='The depth of the tree, default 3.', default=3
     )
     args = parser.parse_args()
 
