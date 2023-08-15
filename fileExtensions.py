@@ -27,7 +27,8 @@ fileIcons: Dict[str, str] = {
     '.avi': '󰕧',
     '.json': '󰘦',
     '.yaml': '󰭏',
-    '.html': ''
+    '.html': '',
+    '.ipynb': ''
 }
 
 fileColors: Dict[str, str] = {
@@ -57,7 +58,8 @@ fileColors: Dict[str, str] = {
     '.avi': '',
     '.json': '',
     '.yaml': '[red]',
-    '.html': ''
+    '.html': '',
+    '.ipynb': '',
 }
 
 dirIgnore: List[str] = [

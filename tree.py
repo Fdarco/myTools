@@ -14,7 +14,7 @@ class DirectionTree:
     def __init__(self, targetPath: str = '.', maxDepth: int = 3):
         self.targetPath = Path(targetPath)
         if self.targetPath.is_dir():
-            self.rootTree = Tree(f'[#0ca0d8] {targetPath}')
+            self.rootTree = Tree(f'[#0ca0d8] {self.targetPath.name}')
         elif self.targetPath.is_file():
             raise ValueError('Please provide a directory path!')
         else:
